@@ -1,0 +1,24 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "enabledAdvancedServices": [],
+    "libraries": [
+      {
+        "userSymbol": "Cheerio",
+        "version": "14",
+        "libraryId": "1ReeQ6WO8kKNxoaA_O0XEQ589cIrRvEBA9qcWpNqdOP17i47u6N9M5Xh0"
+      },
+      {
+        "userSymbol": "SSheetDB",
+        "version": "5",
+        "libraryId": "1m-mnNjwCIxUCgoZxTeHpvICFyntLCs52IjSxfHGA-6MbBiym441opQ21"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "MYSELF"
+  }
+}
