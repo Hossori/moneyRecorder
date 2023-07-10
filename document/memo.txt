@@ -1,2 +1,2 @@
-PathConst.tsとかのファイル読み込み順問題を解決できるならwebpack使ってみようかな。ひとまずこれ見てみる
-https://zenn.dev/faw/articles/clasp-with-import
+webpackできたけど他ファイルに分けるとダメだった。
+module not foundみたいになる

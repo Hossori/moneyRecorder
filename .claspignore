@@ -1,4 +1,3 @@
 **/**
-!app/src/**
-!document/**
+!app/dist/**
 !appsscript.json
