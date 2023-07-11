@@ -1,5 +1,5 @@
-class PathConst {
-    static HTML_ROOT = "app/dist/resources/html/";
-    static HTML_MAIN:string = PathConst.HTML_ROOT + "main";
-    static HTML_TAB:string = PathConst.HTML_ROOT + "tab";
+export default class PathConst {
+    HTML_ROOT = "app/dist/resources/html/";
+    HTML_MAIN:string = this.HTML_ROOT + "main";
+    HTML_TAB:string = this.HTML_ROOT + "tab";
 }

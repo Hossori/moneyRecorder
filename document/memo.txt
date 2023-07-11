@@ -1,2 +1,8 @@
 webpackできたけど他ファイルに分けるとダメだった。
-module not foundみたいになる
+Error: Cannot find module './constant/path/pathConst'（行 1、ファイル「app/dist/js/bundle」）
+
+GASをwebpackでビルドして管理する
+https://kimuson.dev/blog/gas/gas_webpack/
+
+【TypeScript + Webpack】今すぐ誰でも、ローカルで GoogleAppsScript の開発を始められるテンプレート (初心者向け)
+https://qiita.com/Ryo-Nakano/items/50366600543c2888ada7
