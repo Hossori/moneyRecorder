@@ -1,8 +1,6 @@
-webpackできたけど他ファイルに分けるとダメだった。
+・webpack
+バンドルできたけどファイルを分けるとダメだった。
 Error: Cannot find module './constant/path/pathConst'（行 1、ファイル「app/dist/js/bundle」）
-
-GASをwebpackでビルドして管理する
-https://kimuson.dev/blog/gas/gas_webpack/
-
-【TypeScript + Webpack】今すぐ誰でも、ローカルで GoogleAppsScript の開発を始められるテンプレート (初心者向け)
-https://qiita.com/Ryo-Nakano/items/50366600543c2888ada7
+モジュール化してもしなくてもダメ。色々試したけど無理だったから諦める。
+バンドルせずgasエディタでのファイル順を意識して命名する。
+最悪「1.constant」のようにファイル読み込み順を意識したフォルダ名になるかも。
