@@ -5,7 +5,7 @@
   "author": "Hossori <law.f1.vegas@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "push": "npm-run-all push:ts push:clasp",
+    "push": "npm-run-all push:*",
     "push:ts": "tsc",
     "push:clasp": "clasp push",
     "bundle": "webpack --config webpack.config.prod.js"
